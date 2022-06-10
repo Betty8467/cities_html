@@ -1,28 +1,37 @@
+*{box-sizing:border-box;}
+
+body
+{background-color:rgb(2, 116, 100);
+font-family:Arial, Helvetica, sans-serif
+}
+
 #heading, #footing
 { 
-text-align:center
+text-align:center;
+color:white
 }
 
 #toptabs 
 {
-background: color #333;
+background-color:rgb(113, 236, 226);
 overflow: hidden
 }
 
 #toptabs a
 {
-color:white;
+color:black;
 float: left;
-background-color:black;
+background-color:rgb(113, 236, 226);
 display: block ;
 padding: 14px 16px;
+text-decoration: none;
 }
 
 
 #toptabs a:hover 
 {
-background-color:white;
-color:black
+background-color:rgb(2, 116, 100);
+color:white
 }
 
 #leftcolumn 
@@ -43,6 +52,14 @@ color:black
 {
     width: 30%;
     float: right ;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#footing
+{
+    text-align:center;
+    clear:both
 }
 
 @media screen and (max-width: 600px){
