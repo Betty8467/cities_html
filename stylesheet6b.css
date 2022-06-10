@@ -1,79 +1,80 @@
-*{box-sizing:border-box;}
-
-body
-{background-color:rgb(2, 116, 100);
-font-family:Arial, Helvetica, sans-serif
+* {
+    box-sizing: border-box;
 }
 
-#heading, #footing
-{ 
-text-align:center;
-color:white
+body {
+    background-color: rgb(2, 116, 100);
+    font-family: Arial, Helvetica, sans-serif
 }
 
-#toptabs 
-{
-background-color:rgb(113, 236, 226);
-overflow: hidden
+#heading,
+#footing {
+    text-align: center;
+    color: white
 }
 
-#toptabs a
-{
-color:black;
-float: left;
-background-color:rgb(113, 236, 226);
-display: block ;
-padding: 14px 16px;
-text-decoration: none;
+#toptabs {
+    background-color: rgb(113, 236, 226);
+    overflow: hidden
+}
+
+#toptabs a {
+    color: black;
+    float: left;
+    background-color: rgb(113, 236, 226);
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
-#toptabs a:hover 
-{
-background-color:rgb(2, 116, 100);
-color:white
+#toptabs a:hover {
+    background-color: rgb(2, 116, 100);
+    color: white
 }
 
-#leftcolumn 
-{
+#leftcolumn {
     width: 70%;
-    float: left 
+    float: left
 }
 
-.box
-{
-    background-color:rgb(201, 243, 240);
+.box {
+    background-color: rgb(201, 243, 240);
     padding: 20px;
-    margin-top:10px
+    margin-top: 10px
 }
 
 
-#rightcolumn 
-{
+#rightcolumn {
     width: 30%;
-    float: right ;
+    float: right;
     padding-left: 10px;
     margin-bottom: 10px;
 }
 
-#footing
-{
-    text-align:center;
-    clear:both
+#footing {
+    text-align: center;
+    clear: both
 }
 
-@media screen and (max-width: 600px){
-    #left_column, #right_column{
+@media screen and (max-width: 600px) {
+
+    #leftcolumn,
+    #rightcolumn {
         width: 100%;
     }
-    #right_column{
+
+    #rightcolumn {
         padding-left: 0px;
     }
 }
-@media screen and (max-width:300px) {
-    #topnav a{
+
+@media screen and (max-width:600px) {
+    #toptabs a {
         float: none !important;
     }
-    .card img{
+
+    .box {
         width: 100%;
     }
+}
