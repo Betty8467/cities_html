@@ -4,3 +4,23 @@ text-align:center
 }
 
 #toptabs 
+{
+background: color #333;
+overflow: hidden
+}
+
+#toptabs a:
+{
+    color:white;
+    float: left;
+    background-color:black;
+    display: block ;
+    padding: 14px 16px;
+}
+
+
+#toptabs a:hover 
+{
+background-color:white;
+color:black
+}
