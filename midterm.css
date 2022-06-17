@@ -1,0 +1,44 @@
+#headersleft {
+    background-color: white ;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-decoration: none;
+    width:33%;
+    }
+
+ #headersright {
+    background-color: white ;
+    overflow: hidden;
+    float: right;
+    display: block;
+    text-decoration: none;
+    width:33%;
+    }
+
+.bigheader {
+    background-color: grey ;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-decoration: none;
+    width:33%;
+}
+#quote {
+    clear: both;
+}
+
+#picone{
+    width:33%;
+    float:left;
+}
+
+
+#middlequote {
+    width:33%;
+}
+
+#pictwo {
+    width:33%;
+    float:right;
+}
