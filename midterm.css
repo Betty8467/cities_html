@@ -29,16 +29,37 @@
 }
 
 #picone{
-    width:33%;
+    width:20%;
     float:left;
 }
 
 
 #middlequote {
-    width:33%;
+    width:30%;
+    padding-left:10px;
+    padding-right:10px;
+    margin:0px;
+    text-align: center;
 }
 
 #pictwo {
-    width:33%;
+    width:20%;
     float:right;
+}
+
+
+
+#footerpart {
+background-color:white;
+clear:both;
+display: block;
+padding: 10px 16px;
+text-align:center;
+color: rgb(138, 16, 16)
+}
+
+#footerwhole {
+background-color:rgb(138, 16, 16);
+display: block;
+padding: 30px 16px;
 }
