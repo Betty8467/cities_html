@@ -53,7 +53,7 @@
 background-color:white;
 clear:both;
 display: block;
-padding: 10px 16px;
+padding: 5px 200px;
 text-align:center;
 color: rgb(138, 16, 16)
 }
@@ -61,6 +61,6 @@ color: rgb(138, 16, 16)
 #footerwhole {
 background-color:rgb(138, 16, 16);
 display: block;
-padding: 20px 16px;
+padding: 20px 50px;
 clear:both;
 }
