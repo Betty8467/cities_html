@@ -61,5 +61,6 @@ color: rgb(138, 16, 16)
 #footerwhole {
 background-color:rgb(138, 16, 16);
 display: block;
-padding: 30px 16px;
+padding: 20px 16px;
+clear:both;
 }
