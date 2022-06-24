@@ -44,3 +44,5 @@ function setup(){
     jQuery("#mult").click(f1)
     jQuery("#div").click(f1)
 }
+
+$(document).ready(setup)
