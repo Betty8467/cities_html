@@ -40,9 +40,9 @@ function f4(){
 function setup(){
     console.log("setup() got called")
     jQuery("#add").click(f1)
-    jQuery("#sub").click(f1)
-    jQuery("#mult").click(f1)
-    jQuery("#div").click(f1)
+    jQuery("#sub").click(f2)
+    jQuery("#mult").click(f3)
+    jQuery("#div").click(f4)
 }
 
 $(document).ready(setup)
