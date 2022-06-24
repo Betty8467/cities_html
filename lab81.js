@@ -1,10 +1,10 @@
 function f1(){
     tmp1 = jQuery("#op1").val()
     tmp2 = jQuery("#op2").val()
-    tmp = Number(tmp1)
-    tmp = Number(tmp2)
-    jQuery("#finalR").html("Result: " + tmp1 + " + " + tmp2 + " = " + (tmp1 + tmp2))
-    $("#history").append(`<span class='addClass'>" ${tmp1}  " + "  ${tmp2} = ${(tmp1 + tmp2)} <span> <br>`)
+    tmp3 = parseInt(tmp1)
+    tmp4 = parseInt(tmp2)
+    jQuery("#finalR").html("Result: " + tmp3 + " + " + tmp4 + " = " + (tmp3 + tmp4))
+    $("#history").append(`<span class='addClass'>" ${tmp3}  " + "  ${tmp4} = ${(tmp3 + tmp4)} <span> <br>`)
 }
 
 
@@ -13,8 +13,8 @@ function f2(){
     tmp2 = jQuery("#op2").val()
     tmp = Number(tmp1)
     tmp = Number(tmp2)
-    jQuery("#finalR").html("Result: " + tmp1 + " - " + tmp2 + " = " + (tmp1 - tmp2))
-    $("#history").append(`<span class='subClass'>" ${tmp1}  " - "  ${tmp2} = ${(tmp1 - tmp2)} <span> <br>`)
+    jQuery("#finalR").html("Result: " + tmp3 + " - " + tmp4 + " = " + (tmp3 - tmp4))
+    $("#history").append(`<span class='subClass'>" ${tmp1}  " - "  ${tmp2} = ${(tmp3 - tmp4)} <span> <br>`)
 }
 
 function f3(){
@@ -22,8 +22,8 @@ function f3(){
     tmp2 = jQuery("#op2").val()
     tmp = Number(tmp1)
     tmp = Number(tmp2)
-    jQuery("#finalR").html("Result: " + tmp1 + " * " + tmp2 + " = " + (tmp1 * tmp2))
-    $("#history").append(`<span class='multClass'>" ${tmp1}  " * "  ${tmp2} = ${(tmp1 * tmp2)} <span> <br>`)
+    jQuery("#finalR").html("Result: " + tmp3 + " * " + tmp4 + " = " + (tmp3 * tmp4))
+    $("#history").append(`<span class='multClass'>" ${tmp3}  " * "  ${tmp4} = ${(tmp3 * tmp4)} <span> <br>`)
 }
 
 function f4(){
@@ -31,8 +31,8 @@ function f4(){
     tmp2 = jQuery("#op2").val()
     tmp = Number(tmp1)
     tmp = Number(tmp2)
-    jQuery("#finalR").html("Result: " + tmp1 + " / " + tmp2 + " = " + (tmp1 / tmp2))
-    $("#history").append(`<span class='divClass'>" ${tmp1}  " / "  ${tmp2} = ${(tmp1 / tmp2)} <span> <br>`)
+    jQuery("#finalR").html("Result: " + tmp3 + " / " + tmp4 + " = " + (tmp3 / tmp4))
+    $("#history").append(`<span class='divClass'>" ${tmp3}  " / "  ${tmp4} = ${(tmp3 / tmp4)} <span> <br>`)
 }
 
 
