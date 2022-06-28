@@ -43,6 +43,21 @@ function setup(){
     jQuery("#sub").click(f2)
     jQuery("#mult").click(f3)
     jQuery("#div").click(f4)
+
+    function hide_(){
+        $(this).parent().remove();
+      }
+      setup = function() {
+        
+        jQuery('.button_').click(function (){
+          calc(this.id);
+        });
+       
+      
+        jQuery('body').on("click", ".hide", hide_);
+    }
 }
+
+
 
 $(document).ready(setup)
