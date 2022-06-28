@@ -3,6 +3,7 @@ function f1(){
     tmp2 = jQuery("#op2").val()
     tmp3 = parseInt(tmp1)
     tmp4 = parseInt(tmp2)
+    hide_button = "<button class='hide'>Hide this</button>"
     jQuery("#finalR").html("Result: " + tmp3 + " + " + tmp4 + " = " + (tmp3 + tmp4))
     $("#history").append(`<span class='addClass'>" ${tmp3}  " + "  ${tmp4} = ${(tmp3 + tmp4)} <span> <br>`)
 }
@@ -13,6 +14,7 @@ function f2(){
     tmp2 = jQuery("#op2").val()
     tmp = Number(tmp1)
     tmp = Number(tmp2)
+    hide_button = "<button class='hide'>Hide this</button>"
     jQuery("#finalR").html("Result: " + tmp3 + " - " + tmp4 + " = " + (tmp3 - tmp4))
     $("#history").append(`<span class='subClass'>" ${tmp1}  " - "  ${tmp2} = ${(tmp3 - tmp4)} <span> <br>`)
 }
@@ -22,6 +24,7 @@ function f3(){
     tmp2 = jQuery("#op2").val()
     tmp = Number(tmp1)
     tmp = Number(tmp2)
+    hide_button = "<button class='hide'>Hide this</button>"
     jQuery("#finalR").html("Result: " + tmp3 + " * " + tmp4 + " = " + (tmp3 * tmp4))
     $("#history").append(`<span class='multClass'>" ${tmp3}  " * "  ${tmp4} = ${(tmp3 * tmp4)} <span> <br>`)
 }
@@ -31,6 +34,7 @@ function f4(){
     tmp2 = jQuery("#op2").val()
     tmp = Number(tmp1)
     tmp = Number(tmp2)
+    hide_button = "<button class='hide'>Hide this</button>"
     jQuery("#finalR").html("Result: " + tmp3 + " / " + tmp4 + " = " + (tmp3 / tmp4))
     $("#history").append(`<span class='divClass'>" ${tmp3}  " / "  ${tmp4} = ${(tmp3 / tmp4)} <span> <br>`)
 }
